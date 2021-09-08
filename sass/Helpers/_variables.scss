@@ -1,0 +1,54 @@
+//Color
+$color-black-0:#29303b;
+$color-black-1: rgba(20, 23, 28, 0.1);
+$color-white-0:#fff;
+$color-black-light: #505763;
+$color-white-cream:#f2f3f5;
+$color-red-0: #ec5252;
+$color-gray-0:#686f7a;
+$color-red-1:#521822;
+$color-gray-1: rgba(20, 23, 28, 0.05);
+$color-gray-2:#a1a7b3;
+$color-blue-0:#007791;
+$color-gray-3:#dee2e6;
+$color-yellow-0:#F4C150;
+
+
+//Font-size
+$fs-0:15px;
+$fs-1:13px;
+$fs-2:40px;
+$fs-3:18px;
+$fs-4:36px;
+$fs-5:24px;
+
+//Font-weight
+$fw-0: normal;
+$fw-1:600;
+$fw-2:700;
+$fw-3:900;
+//Line-height
+$line-height-0:1.43;
+
+//Letter-spacing
+
+//Margin
+$mg-0:5px;
+$mg-1:25px;
+$mg-2:20px;
+
+//Padding
+$pd-0:10px;
+$pd-1:15px;
+$pd-2:5px;
+
+// Border-radius
+$border-rd-0:2px;
+
+//Break point
+$breakpoints:(
+    'extra-large':1200px,
+    'large':992px,
+    'medium':768px,
+    'small':576px,
+)

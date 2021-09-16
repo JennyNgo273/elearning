@@ -10,3 +10,16 @@
     }
 
 }
+
+@media screen and (min-width:1187px) and (max-width:1321px) {
+    .student{
+        .card--feedback{
+            .card-body{
+                .card-text{
+                    @include styleText($color-black-0, $fs-1, $fw-0)
+                }
+            }
+            
+        }
+    }
+}

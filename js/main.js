@@ -1,5 +1,4 @@
-
-
+/* Truncate Card Title */
 window.addEventListener("load",function(){
     truncateCardTitle();
 })
@@ -20,3 +19,17 @@ function truncateString(str,num){
         return str;
     }
 }
+
+/* Sidebar Mini */
+var toggleBtn = document.querySelector('.sidebarMini__button');
+var sibebarMini = document.querySelector('.sidebarMini');
+var switchBtn = document.querySelector('#checkbox');
+
+toggleBtn.addEventListener('click', function(){
+    sibebarMini.classList.toggle('is-opened'); 
+});
+switchBtn.addEventListener('click', function(){
+    document.querySelector('body').classList.toggle('darkMode');
+    
+});
+

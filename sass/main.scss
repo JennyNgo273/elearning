@@ -20,6 +20,7 @@
 @import './Layouts/student';
 @import  './Layouts/_partner.scss';
 @import './Layouts/jobs';
+@import './Layouts/sidebarMini';
 
 //COMPONENTS
 @import './Components/button';
@@ -30,3 +31,14 @@
 @import './Pages/home';
 
 // THEME
+@import './Theme/dark/resetDark';
+@import './Theme/dark/headerDark';
+@import './Theme/dark/buttonDark';
+@import './Theme/dark/courseDark';
+@import './Theme/dark/cardDark';
+@import './Theme/dark/categoriesDark';
+@import './Theme/dark/studentsDark';
+@import './Theme/dark/partnersDark';
+@import './Theme/dark/jobsDark';
+@import './Theme/dark/footerDark';
+@import './Theme/dark/sidebarMiniDark';

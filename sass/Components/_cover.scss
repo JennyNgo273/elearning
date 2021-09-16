@@ -16,7 +16,13 @@
             @include styleText($color-white-0, $fs-3, $fw-0)
         }
         .cover__form{
-            @include styleFormSearch($color-white-0, $color-white-0, $color-white-0)
+            @include styleFormSearch($color-white-0, $color-white-0, $color-white-0, $color-black-light)
+        }
+    }
+
+    @include responsive("small"){
+        .cover__content{
+            max-width: 400px;
         }
     }
 }

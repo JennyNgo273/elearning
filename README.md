@@ -1,6 +1,6 @@
 <h1 align="center">Elearning-website</h1>
 
-Flat and responsive one page website template (Home page) with two themes White and Dark. <br/>
+Flat and responsive one page website (Home page) with two themes White and Dark. <br/>
 
 Based on the Udemy website<br/>
 

@@ -13,6 +13,69 @@ White Theme: ![screenshot/white.PNG](https://github.com/JennyNgo273/elearning/bl
 
 <!-- ![screenshots/Housing-img.PNG](https://github.com/JennyNgo273/Housing-ws/blob/9e49f3adbaa46679bd59bb906ca57a95db22cb14/screenshots/Housing-img.PNG) -->
 
+# Folder and file structure
+```bash
+./
+├── README.md
+├── index.html
+├── css                                
+│   ├── main.css                             
+│   │── main.css.map
+│   │── owl.carousel.min.css
+│   │── owl.theme.default.min.css 
+│   
+│
+│
+├── images/                                      * image sources  
+│                                 
+├── js                                           * source js
+│   ├── main.js                                  
+│   │── owl.carousel.js                          * minified owl carousel js
+│   │── owl.carousel.min.js
+│                          
+├── sass/                                        * sass preprocessor styles
+│   ├── Base/                           
+│   │    │── customize.scss
+│   │    └── reset.scss
+│   ├── Components/
+│   │    │── button.scss
+│   │    └── card.scss
+│   │    └── cover.scss
+│   ├── Helpers/                                 * mixins and vars
+│   │    │── extend.scss
+│   │    └── mixin.scss
+│   │    └── variables.scss
+│   ├── Layouts/
+│   │    │── banner.scss
+│   │    └── categories.scss
+│   │    └── course.scss
+│   │    └── footer.scss
+│   │    └── header.scss
+│   │    └── intro.scss
+│   │    └── jobs.scss
+│   │    └── sidebarMini.scss
+│   │    └── student.scss
+│   │    └── viewing.scss
+│   ├── Pages/
+│   │    │── home.scss
+│   ├── Theme/
+│   │    │── buttonDark.scss
+│   │    └── cardDark.scss
+│   │    └── categoriesDark.scss
+│   │    └── courseDark.scss
+│   │    └── footerDark.scss
+│   │    └── headerDark.scss
+│   │    └── jobsDark.scss
+│   │    └── partnersDark.scss
+│   │    └── resetDark.scss
+│   │    └── sidebarMiniDark.scss
+│   │    └── studentsDark.scss
+│   │ 
+│   └── main.scss
+│
+└── screenshots/                               * responsive test screenshots
+```
+
 
 # Live demo
 🔗 [Elearning Home page](https://jennyngo273.github.io/elearning/)

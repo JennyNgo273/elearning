@@ -58,6 +58,7 @@ White Theme: ![screenshot/white.PNG](https://github.com/JennyNgo273/elearning/bl
 │   │    └── viewing.scss
 │   ├── Pages/
 │   │    │── home.scss
+         │── mainDomain.scss.js
 │   ├── Theme/
 │   │    │── buttonDark.scss
 │   │    └── cardDark.scss
